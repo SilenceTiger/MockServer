@@ -18,7 +18,7 @@ router.all('/get', function (req, res) {
     }))
 })
 
-router.all('/getTree', function (req, res) {
+router.all('/table/getTree', function (req, res) {
     res.json(Mock.mock({
         "status": true,
         "msg": "succsess",
@@ -58,8 +58,6 @@ router.all('/getTree', function (req, res) {
         }]
     }))
 })
-
-
 
 
 router.all('/post', function (req, res) {
